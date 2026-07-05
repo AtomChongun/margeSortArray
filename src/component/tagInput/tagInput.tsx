@@ -1,4 +1,5 @@
-import React, { useState, KeyboardEvent, ChangeEvent, useRef } from "react";
+import React, { useState, useRef } from "react";
+import type { KeyboardEvent, ChangeEvent } from "react";
 import "./tagInput.css";
 
 interface TagInputProps {

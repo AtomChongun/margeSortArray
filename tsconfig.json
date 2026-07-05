@@ -3,15 +3,5 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ],
-  "compilerOptions": {
-    "moduleResolution": "bundler",
-    "jsx": "react-jsx",
-    "module": "esnext",
-    "target": "es2023",
-    "lib": ["ES2023", "DOM"],
-    "skipLibCheck": true,
-    "noEmit": true
-  },
-  "include": ["src"]
+  ]
 }
