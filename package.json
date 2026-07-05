@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "test": "vitest run"
+    "build": "node_modules\\.bin\\tsc -b && node_modules\\.bin\\vite build",
+    "dev": "node_modules\\.bin\\vite",
+    "preview": "node_modules\\.bin\\vite preview",
+    "lint": "node_modules\\.bin\\eslint .",
+    "test": "node_modules\\.bin\\vitest run"
   },
   "dependencies": {
     "react": "^19.2.5",

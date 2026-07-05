@@ -30,14 +30,14 @@ const SortPage: React.FC = () => {
         </div>
 
         <TagInput
-          label="Collection 1 — ascending (min → max)"
-          hint="e.g. 1, 4, 7"
+          label="Collection 1 — descending (max → min)"
+          hint="e.g. 7, 4, 1"
           tags={c1}
           onChange={setC1}
         />
         <TagInput
-          label="Collection 2 — descending (max → min)"
-          hint="e.g. 9, 5, 2"
+          label="Collection 2 — ascending (min → max)"
+          hint="e.g. 2, 5, 9"
           tags={c2}
           onChange={setC2}
          accentColor="#1976d2"
